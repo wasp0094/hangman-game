@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman game</title>
+ 
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barriecito">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat Brush">
+  <link rel="icon" href="images/favicon.png">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section>
+<div class="wrapper">
+   <!-- <h1>Hangman</h1> -->
+    <h2>Eco-Friendly Hangman Game</h2>
+    <!-- <p>Use the alphabet below to guess the word, or click hint to get a clue. </p> -->
+    <p id="mylives"></p>     
+  </div>
+<div class="wrapper">
+  <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+    <p id="catagoryName">Question</p>
+    <div id="hold">
+    </div>
+     
+     <div id="buttons">
+    </div> 
+    <p id="clue"></p>  
+     <div class="container">
+      <button id="hint">Hint</button>
+      <button id="quit"><a href="index.html">Quit</a></button>
+    </div>
+</div>
+<!-- The Modal -->
+<div id="modal-lose" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>you lose</p>
+    <button id="reset-lose">Play again</button>
+  </div>
+
+</div>
+<!-- The Modal -->
+<div id="modal-win" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>you win
+    </p>
+    <button id="reset-win">Play again</button>
+  </div>
+
+</div>
+</section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

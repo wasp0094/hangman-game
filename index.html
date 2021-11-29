@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hangman</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="images/favicon.png">
+    <script>
+        function rules()
+        {
+        
+            // alert("You will be presented with a number of blank spaces representing the missing letters you need to find. Use the keyboard to guess a letter (I recommend starting with vowels).<br>If your chosen letter exists in the answer, then all places in the answer where that letter appear will be revealed.<br>After you've revealed several letters, you may be able to guess what the answer is and fill in the remaining letters.<br>Be warned, every time you guess a letter wrong you loose a life and the hangman begins to appear, piece by piece.<br>Solve the puzzle before the hangman dies.")
+        //     let ele = document.getElementByclass('play');
+        // ele.innerHTML += 'You will be presented with a number of blank spaces representing the missing letters you need to find. Use the keyboard to guess a letter (I recommend starting with vowels).<br>If your chosen letter exists in the answer, then all places in the answer where that letter appear will be revealed.<br>After you have revealed several letters, you may be able to guess what the answer is and fill in the remaining letters.<br>Be warned, every time you guess a letter wrong you loose a life and the hangman begins to appear, piece by piece.<br>Solve the puzzle before the hangman dies.';
+        // }
+//         var div = document.getElementById('play');
+// div.innerHTML += "You will be presented with a number of blank spaces representing the missing letters you need to find. Use the keyboard to guess a letter (I recommend starting with vowels).<br>If your chosen letter exists in the answer, then all places in the answer where that letter appear will be revealed.<br>After you have revealed several letters, you may be able to guess what the answer is and fill in the remaining letters.<br>Be warned, every time you guess a letter wrong you loose a life and the hangman begins to appear, piece by piece.<br>Solve the puzzle before the hangman dies";
+        } 
+    </script>
+</head>
+<body class="front" >
+    
+    <h1 class="heading"><u>ECO-FRIENDLY HANGMAN GAME</u></h1><br><br>
+    <h2 class="subhead">ABOUT GAME</h2>
+    <div class="content">
+    <p> <strong>
+       <h3><u>Greetings!!!</u></h3>
+Generally, Hangman is a quick and easy 
+game for at least two people that requires nothing
+ more than paper, a pencil, and the ability to spell.
+  One player, the "host," makes up a secret word, 
+  while the other player tries to guess the word by
+   asking what letters it contains. However, every 
+   wrong guess brings them one step closer to losing. <br>
+But here the game will be played between you and the computer. <br>
+Read below how to play ➘
+    </strong>
+   
+    </p>
+</div>
+<br><br>
+<div >
+    <a href='front.html'>
+        <button class="btn" style="color: blueviolet;">
+             START
+        </button>
+    </a>
+    </div>
+    <!-- <a href='index.html'> -->
+        <div >
+            <a href="howtoplay.html">
+        <button class="btnn" onclick="rules()" style="color: blueviolet; ">
+             HOW TO PLAY ?
+        </button>
+            </a>
+        </div>
+      
+</body>
+</html>
